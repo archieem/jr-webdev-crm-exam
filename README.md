@@ -84,3 +84,8 @@ password: password123
 
 email: user2@test.com
 password: password123
+
+# Assumption
+I developed a simple CRUD System using Laravel that follows clean architecture practices with the use of a Controller, Repository Pattern, and Form Request Validation.
+
+The system allows users to create new client records by entering the client’s name, email, and status. Input data is validated before saving to ensure accuracy and data integrity. Users can also view all existing clients in a list with a search functionality for easier record filtering.
