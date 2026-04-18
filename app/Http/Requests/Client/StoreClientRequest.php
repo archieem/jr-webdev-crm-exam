@@ -25,7 +25,7 @@ class StoreClientRequest extends FormRequest
         return [
             'name' => 'required|max:255',
             'email' => 'required|unique:clients',
-            'status' => 'required'
+            'status' => 'required|in:active,inactive',
         ];
     }
 }

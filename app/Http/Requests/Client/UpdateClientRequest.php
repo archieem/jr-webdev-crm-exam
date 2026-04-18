@@ -32,7 +32,7 @@ class UpdateClientRequest extends FormRequest
                 'email',
                 Rule::unique('users')->ignore($clientId),
             ],
-            'status' => 'required'
+            'status' => 'required|in:active,inactive',
         ];
     }
 }
